@@ -1,0 +1,29 @@
+{
+    "name": "catpkt/http-api-gluer"
+,
+    "type": "library"
+,
+    "license": "MIT"
+,
+    "authors": [
+        {
+            "name": "Fenz"
+        ,
+            "email": "uukoo@163.com"
+        }
+    ]
+,
+    "require": {
+        "php": ">=7.1.0"
+    ,
+        "fenzland/http-api-gluer": ">=0.2.0"
+    ,
+        "catpkt/encryptor": ">=0.0.4"
+    }
+,
+    "autoload": {
+        "psr-4": {
+            "CatPKT\\HttpApiGluer\\": "src/"
+        }
+    }
+}
